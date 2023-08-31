@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ai-giftshop/static/css/main.2ff9255c.css",
+    "main.js": "/ai-giftshop/static/js/main.f7979b8e.js",
+    "static/js/787.01a743a1.chunk.js": "/ai-giftshop/static/js/787.01a743a1.chunk.js",
+    "index.html": "/ai-giftshop/index.html",
+    "main.2ff9255c.css.map": "/ai-giftshop/static/css/main.2ff9255c.css.map",
+    "main.f7979b8e.js.map": "/ai-giftshop/static/js/main.f7979b8e.js.map",
+    "787.01a743a1.chunk.js.map": "/ai-giftshop/static/js/787.01a743a1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2ff9255c.css",
+    "static/js/main.f7979b8e.js"
+  ]
+}
