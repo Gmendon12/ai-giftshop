@@ -14,16 +14,14 @@ import Basics from './StartBuilding/Overview/Basics';
 import Steps from './StartBuilding/Overview/Steps';
 import Tutorial from './StartBuilding/Tutorial/Tutorial';
 import Conclusion from './StartBuilding/Conclusion/Conclusion';
-import {Routes, Route, BrowserRouter} from 'react-router-dom'
+import {HashRouter, Routes, Route} from 'react-router-dom'
 
 
 function App() {
   return (
     <div className="App">
-       
-       <h1 style={{color:'white'}}>Hello this is App</h1>
-       
-       <BrowserRouter>
+
+       <HashRouter>
        <Routes>
         <Route exact path='/' element={<Home/>} />
         <Route path='/docs' element={<Docs/>} />
@@ -42,7 +40,7 @@ function App() {
         <Route path='/startbuilding/tutorial' element={<Tutorial/>}/>
         <Route path='/startbuilding/conclusion' element={<Conclusion/>} />
         </Routes>
-       </BrowserRouter>
+       </HashRouter>
       
     </div>
   );
