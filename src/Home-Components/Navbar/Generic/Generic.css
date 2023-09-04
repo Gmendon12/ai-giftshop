@@ -1,0 +1,159 @@
+#generic{
+    text-align: justify;
+}
+
+#generic-header{
+    height: 60px;
+    width: 100%;
+    background-color: black;
+    opacity: 0.9;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+    align-items: center;
+}
+
+.generic-company-name{
+    font-style: italic;
+    color: aqua;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.generic-btn{
+    background-color: aqua;
+    color: black;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    height: 30px;
+    width: 100px;
+    border-radius: 16px;
+    border: 0;
+    font-weight: bold
+  }
+
+  .generic-template{
+    height: 200px;
+    width: 100%;
+    background: linear-gradient(45deg, aqua 2%, black 20%);
+  }
+
+  .generic-template{
+    padding-top: 50px;
+    padding-left: 100px;
+  }
+
+  .generic-template-head{
+    font-size: 30px;
+  }
+
+#generic-cards{
+  background-color: beige;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+.generic-cards-flex{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.generic-card-btn{
+  height: 30px;
+  width: 80px;
+  border: none;
+  box-shadow: 1px 1px 5px black;
+  border-radius: 16px;
+  font-size: 12px;
+}
+
+.generic-card-btn-inactive{
+  height: 30px;
+  width: 80px;
+  border: none;
+  border-radius: 16px;
+  font-size: 12px;
+}
+
+
+.generic-card-expired-inactive{
+  height: 30px;
+  width: 80px;
+  border: none;
+  border-radius: 16px;
+  font-size: 12px;
+}
+
+.generic-card-expired{
+  height: 30px;
+  width: 80px;
+  border: none;
+  box-shadow: 1px 1px 5px black;
+  border-radius: 16px;
+  font-size: 12px;
+}
+
+.generic-card1{
+  height: 350px;
+  width: 300px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 20px black ;
+}
+
+.claim-now{
+  width: 280px;
+  height: 60px;
+  background-color: beige;
+  border-radius: 15px;
+  position: absolute;
+  left: calc((100% - 280px)/2);
+  bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  color: black;
+}
+
+.claim-now-btn{
+  height: 40px;
+  width: 100px;
+  border: none;
+  background-color: aqua;
+  box-shadow: 1px 1px 5px black;
+  border-radius: 16px;
+  font-size: 15px;
+}
+
+.generic-card2{
+  height: 350px;
+  width: 300px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 20px black ;
+  opacity: 0.6;
+}
+
+.expired{
+  position: absolute;
+  height: 60px;
+  width: 280px;
+  border-radius: 15px;
+  border: red solid 5px;
+  color: red;
+  position: absolute;
+  left: calc((100% - 280px)/2);
+  top: calc((100% - 60px)/2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  font-weight: 700;
+  filter: brightness(0.9);
+}
+
+

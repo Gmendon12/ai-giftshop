@@ -1,0 +1,125 @@
+#start-building-header{
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    opacity: 0.9;
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgb(63, 63, 63);
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.start-building-company-name{
+    font-style: italic;
+    color: aqua;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.start-building-icons{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+
+#start-building{
+    display: flex;
+    flex-direction: row;
+    gap:40px
+}
+
+.start-building-main{
+    padding-left: 50px;
+    padding-right: 10px;
+    padding-top: 40px;
+    width: 25vw;
+    height: 100vh;
+    border-right: 1px solid rgb(36, 35, 35);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 12px;
+    text-align: justify;
+    color: rgb(175, 175, 175);
+    cursor: pointer;
+}
+
+.overview{
+    color: aqua;
+}
+
+.overview:hover{
+    color: aqua;
+}
+
+.start-building-line{
+    height: 66px;
+    width: 1px;
+    border: 1px solid rgb(46, 45, 45);
+}
+
+.introduction-line{
+    height: 15px;
+    width: 1px;
+    background-color: aqua;
+    position: absolute;
+    left: -11px;
+}
+
+.basics-line{
+    height: 15px;
+    width: 1px;
+    background-color: aqua;
+    position: absolute;
+    left: -11px;
+}
+
+.overview-links{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.start-building-content{
+    width: 75vw;
+    text-align: justify;
+    padding-top: 30px;
+    padding-right: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.start-building-content-heading{
+    font-size: 25px;
+}
+
+.start-building-content-para{
+    width: 700px;
+    font-size: 12px;
+    padding-top: 5px;
+    color: rgb(175, 175, 175);
+}
+
+li{
+    padding-top: 5px;
+    font-size: 12px;
+    color: rgb(175, 175, 175);
+}
+
+.start-building-overview{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.material-symbols-outlined{
+    font-size: 12px;
+    position: absolute;
+    top: 92px;
+    left: 200px;
+}

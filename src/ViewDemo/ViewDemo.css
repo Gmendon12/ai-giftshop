@@ -1,0 +1,155 @@
+body{
+    background-color: black;
+    /* text-align: justify; */
+}
+
+#view-demo{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    text-align: justify;
+}
+
+#view-demo-header{
+    height: 30px;
+    width: 100%;
+    background: linear-gradient(to right, aqua, black, black);
+    color: white;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.view-demo-logo-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    color: white;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.view-demo-logo-section1{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+#view-demo-company-name{
+    font-style: italic;
+    color: aqua;
+    font-weight: bold;
+    font-size: 20px;
+    position: relative;
+  }
+
+.view-demo-logo-section1 a{
+   color:rgb(233, 228, 228);
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.view-demo-btn{
+background-color: aqua;
+  color: black;
+  font-size: 12px;
+  font-family: 'Montserrat', sans-serif;
+  height: 30px;
+  width: 100px;
+  border-radius: 16px;
+  border: 0;
+  font-weight: bold;
+}
+
+.view-demo-content{
+    color:white;
+    background-color: black;
+    padding-top: 50px;
+    padding-left: 100px;
+    text-align: justify;
+}
+
+.view-demo-content-text{
+    font-size: 25px;
+}
+
+.view-demo-option{
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    padding-top:30px;
+    padding-left: 100px;
+}
+
+.view-demo-option-head{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.option-head{
+    color: aqua;
+}
+
+.option-head-line-airdrop{
+    height: 2px;
+    width: 30px;
+    background-color: aqua;
+    position: relative;
+    top: 14px;
+}
+
+.option-head-line-nft{
+    height: 2px;
+    width: 30px;
+    background-color: aqua;
+    position: relative;
+    top: 14px;
+}
+
+.option-head-line-randoq{
+    height: 2px;
+    width: 30px;
+    background-color: aqua;
+    position: relative;
+    top: 14px;
+}
+
+.option-head-line-uniswap{
+    height: 2px;
+    width: 30px;
+    background-color: aqua;
+    position: relative;
+    top: 14px;
+}
+
+.option-head-line-slot{
+    height: 2px;
+    width: 30px;
+    background-color: aqua;
+    position: relative;
+    top: 14px;
+}
+
+
+.view-demo-line{
+    border: white 1px solid;
+    background-color: white;
+    width: 700px;
+    position: relative;
+    right: 112px;
+}
+
+.view-demo-line2{
+    border: white 1px solid;
+    background-color: white;
+    width: 700px;
+    position: relative;
+    right: 112px;
+}
+
