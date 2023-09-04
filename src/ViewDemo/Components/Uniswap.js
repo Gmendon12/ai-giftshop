@@ -10,7 +10,7 @@ export default function Uniswap() {
         <div className='view-demo-logo-section'>
             <div className='view-demo-logo-section1'>
                 <div id='view-demo-company-name'> Generic </div>
-                <a>Docs</a>
+                <a href='/docs'>Docs</a>
                 <a>GitHub</a>
             </div>
             <button className='view-demo-btn'>Link Wallet</button>
