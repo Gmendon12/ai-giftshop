@@ -1,4 +1,4 @@
-import Home from './Home-Components/Home/Home';
+cimport Home from './Home-Components/Home/Home';
 import Docs from './Home-Components/Navbar/Docs';
 import Generic from './Home-Components/Navbar/Generic/Generic';
 import Expired from './Home-Components/Navbar/Generic/Expired';
