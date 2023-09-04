@@ -1,4 +1,4 @@
-import Home from './Home-Components/Home/Home';
+cimport Home from './Home-Components/Home/Home';
 import Docs from './Home-Components/Navbar/Docs';
 import Generic from './Home-Components/Navbar/Generic/Generic';
 import Expired from './Home-Components/Navbar/Generic/Expired';
@@ -23,7 +23,7 @@ function App() {
        
        <h1 style={{color:'white'}}>Hello this is App</h1>
       <Routes>
-        <Route path='/' element={<Home/>} />
+        <Route exact path='/' element={<Home/>} />
         <Route path='/docs' element={<Docs/>} />
         <Route path='/generic' element={<Generic/>}/>
         <Route path='/generic/expired' element={<Expired/>} />
