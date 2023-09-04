@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/ai-giftshop/static/css/main.2ff9255c.css",
-    "main.js": "/ai-giftshop/static/js/main.f6076faa.js",
-    "index.html": "/ai-giftshop/index.html",
-    "main.2ff9255c.css.map": "/ai-giftshop/static/css/main.2ff9255c.css.map",
-    "main.f6076faa.js.map": "/ai-giftshop/static/js/main.f6076faa.js.map"
+    "main.css": "./static/css/main.2ff9255c.css",
+    "main.js": "./static/js/main.24c2933d.js",
+    "index.html": "./index.html",
+    "main.2ff9255c.css.map": "./static/css/main.2ff9255c.css.map",
+    "main.24c2933d.js.map": "./static/js/main.24c2933d.js.map"
   },
   "entrypoints": [
     "static/css/main.2ff9255c.css",
-    "static/js/main.f6076faa.js"
+    "static/js/main.24c2933d.js"
   ]
 }
