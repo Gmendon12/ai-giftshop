@@ -20,6 +20,8 @@ import {Routes, Route} from 'react-router-dom'
 function App() {
   return (
     <div className="App">
+       
+       <h1 style={{color:'white'}}>Hello this is App</h1>
       <Routes>
         <Route path='/' element={<Home/>} />
         <Route path='/docs' element={<Docs/>} />
